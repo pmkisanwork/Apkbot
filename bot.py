@@ -11,7 +11,7 @@ from http.server import HTTPServer, BaseHTTPRequestHandler
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, CallbackQueryHandler, MessageHandler, filters, ContextTypes
 
-BOT_TOKEN = "8858208936:AAHw-GRB0rFNf04lmir_6pvPgpt56bjQWe0"
+BOT_TOKEN = "8856006467:AAFD4TxC4iAT98pphxEYArEtLH6-ekj9cmQ"
 ADMIN_ID = 5908811700
 UPI_ID = "BHARATPE.8R0K1Z0V1R62609@fbpe"
 
@@ -23,7 +23,7 @@ def load_settings():
         with open(SETTINGS_FILE, "r") as f:
             return json.load(f)
     return {
-        "price": 99,
+        "price": 149,
         "app_link": "https://www.mediafire.com/file/w497vl4346qfk3w/SG.apk/file"
     }
 
