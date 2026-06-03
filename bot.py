@@ -23,7 +23,7 @@ def load_settings():
         with open(SETTINGS_FILE, "r") as f:
             return json.load(f)
     return {
-        "price": 149,
+        "price": 49,
         "app_link": "https://www.mediafire.com/file/w497vl4346qfk3w/SG.apk/file"
     }
 
