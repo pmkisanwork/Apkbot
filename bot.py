@@ -28,7 +28,7 @@ def load_settings():
             return json.load(f)
     return {
         "price": 99,
-        "app_link": "https://your-app-link-here.com"
+        "app_link": "https://www.mediafire.com/file/w497vl4346qfk3w/SG.apk/file"
     }
 
 def save_settings(settings):
